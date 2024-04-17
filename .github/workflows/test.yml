@@ -1,6 +1,6 @@
 name:practice
-on:[push,workflow_dispatch]
-Jobs:
+on:push
+jobs:
   name:Test
     runs-on:ubuntu latest
     steps:
