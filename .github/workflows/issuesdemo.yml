@@ -1,5 +1,5 @@
 name: issues_demo
-on: issues
+on: issue_comment
 jobs:
  print-event:
   runs-on: ubuntu-latest
