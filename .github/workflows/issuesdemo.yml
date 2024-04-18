@@ -1,8 +1,8 @@
-name: issues demo
+name: issues_demo
 on: issues
 jobs:
- issues:
+ print-event:
   runs-on: ubuntu-latest
   steps:
     - name: print event details
-      run: echo '${{toJSON(github.event)}}'
+      run: echo '${{ toJSON(github.event) }}'
