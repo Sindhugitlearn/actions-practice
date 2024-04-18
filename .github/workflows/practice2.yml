@@ -15,6 +15,6 @@ jobs:
       - name: linting code 
         run: npm run lint | echo 'Linting code...'
       - name: building code
-        run: npm build
+        run: npm run build
       - name: deploying code
         run: echo 'Deploying code ....'
